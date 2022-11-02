@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/boards/MicroBit_v2/microbit_v2_full.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 58" >
+      <vfs_project />
+      <vfs_file>/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/boards/MicroBit_v2/microbit_v2_full.gpr</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/boards/MicroBit_v2/microbit_v2_full.gpr</vfs_project>
+      <vfs_file>/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/boards/MicroBit_v2/microbit_v2_full.gpr</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
