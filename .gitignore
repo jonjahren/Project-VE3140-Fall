@@ -1,0 +1,2 @@
+# We should not commit compiled objects to github
+obj/
