@@ -24,7 +24,7 @@ RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 RV NO_OBSOLESCENT_FEATURES
 
-U ada_main%b		b__main.adb		b245ad05 OO PK IL
+U ada_main%b		b__main.adb		5da218a7 OO PK IL
 Z system%s		system.ads		system.ali
 
 U ada_main%s		b__main.ads		f83fdd3d EE NE OO PK IL
@@ -32,8 +32,8 @@ W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 
-D b__main.ads		20221117090324 8d59ea92 ada_main%s
-D b__main.adb		20221117090324 3f1c4797 ada_main%b
+D b__main.ads		20221117135223 8d59ea92 ada_main%s
+D b__main.adb		20221117135223 d0fbf235 ada_main%b
 D system.ads		20221006073826 ad54c63c system%s
 D s-parame.ads		20221006073826 8e90778f system.parameters%s
 D s-secsta.ads		20221006073826 56a2861c system.secondary_stack%s
@@ -99,7 +99,7 @@ X 2 b__main.adb
 52i4 E256{short_integer} 52m46 52r46 234m7 234r15
 53i4 E254{short_integer} 53m46 53r46 236m7 236r15
 54i4 E234{short_integer} 54m46 54r46 239m7 239r15
-55i4 E262{short_integer} 55m46 55r46 242m7 242r15
+55i4 E269{short_integer} 55m46 55r46 242m7 242r15
 57a4 Sec_Default_Sized_Stacks(5|43R9) 145m32 145r32
 59a4 Local_Priority_Specific_Dispatching{string} 133r9
 60a4 Local_Interrupt_States{string} 136r27

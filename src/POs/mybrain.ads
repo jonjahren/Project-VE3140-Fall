@@ -9,7 +9,8 @@ package MyBrain is
       procedure SetMeasurementSensor2 (V : Distance_cm); -- but concurrent read/write are not!
    private
          MeasurementSensor1 : Distance_cm := 0;
-         MeasurementSensor2 : Distance_cm := 0;
+        MeasurementSensor2 : Distance_cm := 0;
+      MeasurementSensor3 : Distance_cm :=0;
    end Brain;
 
 end MyBrain;

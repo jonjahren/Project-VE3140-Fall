@@ -16,11 +16,11 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 
-U mybrain%b		mybrain.adb		882e76e4 NE OO PK
+U mybrain%b		mybrain.adb		326f6a58 NE OO PK
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 
-U mybrain%s		mybrain.ads		ac5f7eb6 EE OO PF PK
+U mybrain%s		mybrain.ads		161e620a EE OO PF PK
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 Z system.tasking%s	s-taskin.adb		s-taskin.ali
 Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
@@ -46,7 +46,7 @@ D hal-uart.ads		20221102095709 d58316b4 hal.uart%s
 D interfac.ads		20221006073826 edec285f interfaces%s
 D microbit.ads		20221102095709 3b54a3e8 microbit%s
 D microbit-iosfortasking.ads  20221102095709 4fea7ff2 microbit.iosfortasking%s
-D mybrain.ads		20221116082117 211a4f62 mybrain%s
+D mybrain.ads		20221117135222 9b5b53de mybrain%s
 D mybrain.adb		20221116082117 a9343986 mybrain%b
 D nrf.ads		20221102095709 74cf72f5 nrf%s
 D nrf-device.ads	20221102095709 9c9916c4 nrf.device%s
@@ -120,7 +120,7 @@ X 16 hal-spi.ads
 X 17 hal-uart.ads
 48h9*UART_Port
 X 21 mybrain.ads
-2K9*MyBrain 15l5 15e12 22|1b14 30l5 30t12
+2K9*MyBrain 16l5 16e12 22|1b14 30l5 30t12
 4w14*Brain 22|4b20 28l8 28t13
 5V16 GetMeasurementSensor1{70|5I9} 22|12b16 15l11 15t32
 6V16 GetMeasurementSensor2{70|5I9} 22|24b16 27l11 27t32
@@ -129,7 +129,8 @@ X 21 mybrain.ads
 9U17 SetMeasurementSensor2 9>40 22|18b17 21l11 21t32
 9i40 V{70|5I9} 22|18b40 20r32
 11i10 MeasurementSensor1{70|5I9} 22|8r10 14r17
-12i10 MeasurementSensor2{70|5I9} 22|20r10 26r17
+12i9 MeasurementSensor2{70|5I9} 22|20r10 26r17
+13i7 MeasurementSensor3{70|5I9}
 X 50 s-interr.ads
 97U14*Install_Restricted_Handlers_Sequential 98i<c,__gnat_attach_all_handlers>22
 X 58 s-secsta.ads
@@ -138,6 +139,6 @@ X 66 s-taskin.ads
 398V13*Get_Sec_Stack{58|46P9} 399i<c,__gnat_get_secondary_stack>22
 X 70 ultrasonic.ads
 3K9*Ultrasonic 21|1w6 1r22 70|16e15
-5I9*Distance_cm<short_integer> 21|5r45 6r45 8r44 9r44 11r31 12r31 22|6r44
+5I9*Distance_cm<short_integer> 21|5r45 6r45 8r44 9r44 11r31 12r30 13r28 22|6r44
 . 12r45 18r44 24r45
 
