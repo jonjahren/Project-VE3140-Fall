@@ -1,0 +1,29 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/jon/Documents/Project-VE3140-Fall/autocar.gpr
+20221116082636 3b9870f13afb61f96c0ab9fcd173a3d5
+/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/boards/MicroBit_v2/microbit_v2_full.gpr
+20221102095709 d7eca57a20f7c582f26b5a3d869e4737
+[BOUND OBJECT FILES]
+/home/jon/Documents/Project-VE3140-Fall/obj/mymotordriver.o
+/home/jon/Documents/Project-VE3140-Fall/obj/taskact.o
+/home/jon/Documents/Project-VE3140-Fall/obj/ultrasonic.o
+/home/jon/Documents/Project-VE3140-Fall/obj/mybrain.o
+/home/jon/Documents/Project-VE3140-Fall/obj/tasksense.o
+/home/jon/Documents/Project-VE3140-Fall/obj/taskthink.o
+/home/jon/Documents/Project-VE3140-Fall/obj/mycontroller.o
+/home/jon/Documents/Project-VE3140-Fall/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/jon/Documents/Project-VE3140-Fall/obj/
+-L/home/jon/Documents/Project-VE3140-Fall/obj/
+-L/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/boards/MicroBit_v2/obj/full_lib_Debug/
+-L/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/adalib/
+-static
+-static-libgcc
+/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/adalib/libgnarl.a
+/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/adalib/libgnat.a
