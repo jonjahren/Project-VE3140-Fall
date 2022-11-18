@@ -1,4 +1,4 @@
-graph: { title: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb"
+graph: { title: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb"
 edge: { sourcename: "pcd8544__Tpcd8544_bitmap_bufferCFD"
   targetname: "-9:pcd8544__pcd8544_bitmap_buffer,pcd8544__pcd8544_bitmap_buffer"
   label: "pcd8544.ads:191:9"
@@ -106,205 +106,205 @@ edge: { sourcename: "pcd8544__initialize"
   targetname: "8:hal__gpio__gpio_point,hal__gpio__gpio_point"
   label: "pcd8544.adb:180:14"
 }
-node: { title: "pcd8544__pcd8544_bitmap_bufferIP" label: "PCD8544_BITMAP_BUFFERIP\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n16 bytes (static)" }
-node: { title: "memory_mapped_bitmap__memory_mapped_bitmap_bufferIP" label: "Memory_Mapped_Bitmap_Bufferip\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/middleware/src/bitmap/memory_mapped_bitmap.ads:41:9" shape : ellipse }
-edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferIP" targetname: "memory_mapped_bitmap__memory_mapped_bitmap_bufferIP" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:34" }
-node: { title: "pcd8544___size__4" label: "PCD8544\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n16 bytes (static)" }
-node: { title: "pcd8544__pcd8544_bitmap_bufferPI__2" label: "PCD8544_BITMAP_BUFFERPI\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n16 bytes (static)" }
-node: { title: "system__put_images__put_image_unknown" label: "Put_Image_Unknown\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/s-putima.ads:106:14" shape : ellipse }
-edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferPI__2" targetname: "system__put_images__put_image_unknown" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-node: { title: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSR__uint8_array_21SR__2.0" label: "UINT8_ARRAY_21SR\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n56 bytes (static)" }
-node: { title: "system__stream_attributes__i_ssu" label: "I_Ssu\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/s-stratt.ads:128:13" shape : ellipse }
-edge: { sourcename: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSR__uint8_array_21SR__2.0" targetname: "system__stream_attributes__i_ssu" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-node: { title: "pcd8544__pcd8544_bitmap_bufferSR__2" label: "PCD8544_BITMAP_BUFFERSR\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n48 bytes (static)" }
-node: { title: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSR" label: "Memory_Mapped_Bitmap_Buffersr\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/middleware/src/bitmap/memory_mapped_bitmap.ads:41:9" shape : ellipse }
-edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSR__2" targetname: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSR" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSR__2" targetname: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSR__uint8_array_21SR__2.0" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-node: { title: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSW__uint8_array_29SW__2.1" label: "UINT8_ARRAY_29SW\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n48 bytes (static)" }
-node: { title: "system__stream_attributes__w_ssu" label: "W_Ssu\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/s-stratt.ads:166:14" shape : ellipse }
-edge: { sourcename: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSW__uint8_array_29SW__2.1" targetname: "system__stream_attributes__w_ssu" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-node: { title: "pcd8544__pcd8544_bitmap_bufferSW__2" label: "PCD8544_BITMAP_BUFFERSW\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n48 bytes (static)" }
-node: { title: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSW" label: "Memory_Mapped_Bitmap_Buffersw\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/middleware/src/bitmap/memory_mapped_bitmap.ads:41:9" shape : ellipse }
-edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSW__2" targetname: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSW" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSW__2" targetname: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSW__uint8_array_29SW__2.1" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-node: { title: "pcd8544__pcd8544_bitmap_bufferSI__2" label: "PCD8544_BITMAP_BUFFERSI\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n552 bytes (static)" }
-edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSI__2" targetname: "pcd8544__pcd8544_bitmap_bufferIP" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSI__2" targetname: "pcd8544__pcd8544_bitmap_bufferSR__2" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/s-secsta.ads:58:14" shape : ellipse }
-edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSI__2" targetname: "system__secondary_stack__ss_allocate" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
+node: { title: "pcd8544__pcd8544_bitmap_bufferIP" label: "PCD8544_BITMAP_BUFFERIP\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n16 bytes (static)" }
+node: { title: "memory_mapped_bitmap__memory_mapped_bitmap_bufferIP" label: "Memory_Mapped_Bitmap_Bufferip\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\middleware\src\bitmap\memory_mapped_bitmap.ads:41:9" shape : ellipse }
+edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferIP" targetname: "memory_mapped_bitmap__memory_mapped_bitmap_bufferIP" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:34" }
+node: { title: "pcd8544___size__4" label: "PCD8544\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n16 bytes (static)" }
+node: { title: "pcd8544__pcd8544_bitmap_bufferPI__2" label: "PCD8544_BITMAP_BUFFERPI\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n16 bytes (static)" }
+node: { title: "system__put_images__put_image_unknown" label: "Put_Image_Unknown\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\s-putima.ads:106:14" shape : ellipse }
+edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferPI__2" targetname: "system__put_images__put_image_unknown" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+node: { title: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSR__uint8_array_21SR__2.0" label: "UINT8_ARRAY_21SR\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n56 bytes (static)" }
+node: { title: "system__stream_attributes__i_ssu" label: "I_Ssu\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\s-stratt.ads:128:13" shape : ellipse }
+edge: { sourcename: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSR__uint8_array_21SR__2.0" targetname: "system__stream_attributes__i_ssu" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+node: { title: "pcd8544__pcd8544_bitmap_bufferSR__2" label: "PCD8544_BITMAP_BUFFERSR\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n48 bytes (static)" }
+node: { title: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSR" label: "Memory_Mapped_Bitmap_Buffersr\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\middleware\src\bitmap\memory_mapped_bitmap.ads:41:9" shape : ellipse }
+edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSR__2" targetname: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSR" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSR__2" targetname: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSR__uint8_array_21SR__2.0" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+node: { title: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSW__uint8_array_29SW__2.1" label: "UINT8_ARRAY_29SW\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n48 bytes (static)" }
+node: { title: "system__stream_attributes__w_ssu" label: "W_Ssu\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\s-stratt.ads:166:14" shape : ellipse }
+edge: { sourcename: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSW__uint8_array_29SW__2.1" targetname: "system__stream_attributes__w_ssu" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+node: { title: "pcd8544__pcd8544_bitmap_bufferSW__2" label: "PCD8544_BITMAP_BUFFERSW\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n48 bytes (static)" }
+node: { title: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSW" label: "Memory_Mapped_Bitmap_Buffersw\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\middleware\src\bitmap\memory_mapped_bitmap.ads:41:9" shape : ellipse }
+edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSW__2" targetname: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSW" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSW__2" targetname: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:pcd8544__pcd8544_bitmap_bufferSW__uint8_array_29SW__2.1" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+node: { title: "pcd8544__pcd8544_bitmap_bufferSI__2" label: "PCD8544_BITMAP_BUFFERSI\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n552 bytes (static)" }
+edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSI__2" targetname: "pcd8544__pcd8544_bitmap_bufferIP" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSI__2" targetname: "pcd8544__pcd8544_bitmap_bufferSR__2" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\s-secsta.ads:58:14" shape : ellipse }
+edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSI__2" targetname: "system__secondary_stack__ss_allocate" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
 node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
 edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSI__2" targetname: "memcpy" }
-node: { title: "pcd8544__pcd8544_bitmap_bufferSO__2" label: "PCD8544_BITMAP_BUFFERSO\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n24 bytes (static)" }
-edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSO__2" targetname: "pcd8544__pcd8544_bitmap_bufferSW__2" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-node: { title: "pcd8544__Oeq__2" label: "=\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:4\n16 bytes (static)" }
-node: { title: "memory_mapped_bitmap__Oeq" label: "=\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/middleware/src/bitmap/memory_mapped_bitmap.ads:41:9" shape : ellipse }
-edge: { sourcename: "pcd8544__Oeq__2" targetname: "memory_mapped_bitmap__Oeq" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
+node: { title: "pcd8544__pcd8544_bitmap_bufferSO__2" label: "PCD8544_BITMAP_BUFFERSO\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n24 bytes (static)" }
+edge: { sourcename: "pcd8544__pcd8544_bitmap_bufferSO__2" targetname: "pcd8544__pcd8544_bitmap_bufferSW__2" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+node: { title: "pcd8544__Oeq__2" label: "=\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:4\n16 bytes (static)" }
+node: { title: "memory_mapped_bitmap__Oeq" label: "=\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\middleware\src\bitmap\memory_mapped_bitmap.ads:41:9" shape : ellipse }
+edge: { sourcename: "pcd8544__Oeq__2" targetname: "memory_mapped_bitmap__Oeq" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
 node: { title: "memcmp" label: "builtin_memcmp\n<built-in>" shape : ellipse }
-edge: { sourcename: "pcd8544__Oeq__2" targetname: "memcmp" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-node: { title: "pcd8544___assign__2" label: "PCD8544\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n448 bytes (static)" }
+edge: { sourcename: "pcd8544__Oeq__2" targetname: "memcmp" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+node: { title: "pcd8544___assign__2" label: "PCD8544\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n448 bytes (static)" }
 edge: { sourcename: "pcd8544___assign__2" targetname: "memcpy" }
-node: { title: "pcd8544__pcd8544_bitmap_bufferDA__2" label: "PCD8544_BITMAP_BUFFERDA\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n16 bytes (static)" }
-node: { title: "pcd8544__pcd8544_bitmap_bufferDF__2" label: "PCD8544_BITMAP_BUFFERDF\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n16 bytes (static)" }
-node: { title: "pcd8544__Tpcd8544_bitmap_bufferCFD" label: "TPCD8544_BITMAP_BUFFERCFD\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9\n32 bytes (static)" }
+node: { title: "pcd8544__pcd8544_bitmap_bufferDA__2" label: "PCD8544_BITMAP_BUFFERDA\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n16 bytes (static)" }
+node: { title: "pcd8544__pcd8544_bitmap_bufferDF__2" label: "PCD8544_BITMAP_BUFFERDF\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n16 bytes (static)" }
+node: { title: "pcd8544__Tpcd8544_bitmap_bufferCFD" label: "TPCD8544_BITMAP_BUFFERCFD\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9\n32 bytes (static)" }
 node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
-edge: { sourcename: "pcd8544__Tpcd8544_bitmap_bufferCFD" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-node: { title: "pcd8544__pcd8544_deviceIP" label: "PCD8544_DEVICEIP\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:196:9\n32 bytes (static)" }
-edge: { sourcename: "pcd8544__pcd8544_deviceIP" targetname: "pcd8544__pcd8544_bitmap_bufferIP" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:203:10" }
-node: { title: "pcd8544_reg__pcd8544_function_registerIP" label: "Pcd8544_Function_Registerip\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544_reg.ads:50:9" shape : ellipse }
-edge: { sourcename: "pcd8544__pcd8544_deviceIP" targetname: "pcd8544_reg__pcd8544_function_registerIP" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:206:10" }
-node: { title: "pcd8544_reg__pcd8544_display_registerIP" label: "Pcd8544_Display_Registerip\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544_reg.ads:65:9" shape : ellipse }
-edge: { sourcename: "pcd8544__pcd8544_deviceIP" targetname: "pcd8544_reg__pcd8544_display_registerIP" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:207:10" }
-node: { title: "pcd8544___size__5" label: "PCD8544\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:196:9\n16 bytes (static)" }
-node: { title: "pcd8544__pcd8544_devicePI__2" label: "PCD8544_DEVICEPI\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:196:9\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__pcd8544_devicePI__2" targetname: "system__put_images__put_image_unknown" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:196:9" }
-node: { title: "pcd8544__pcd8544_deviceDF__2" label: "PCD8544_DEVICEDF\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:196:9\n16 bytes (static)" }
-node: { title: "pcd8544__Tpcd8544_deviceCFD" label: "TPCD8544_DEVICECFD\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:61:9\n32 bytes (static)" }
-edge: { sourcename: "pcd8544__Tpcd8544_deviceCFD" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:61:9" }
-node: { title: "pcd8544__finalize_spec" label: "FINALIZE_SPEC\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:60:1\n16 bytes (static)" }
-node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/a-tags.ads:589:14" shape : ellipse }
-edge: { sourcename: "pcd8544__finalize_spec" targetname: "ada__tags__unregister_tag" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:60:1" }
-edge: { sourcename: "pcd8544__finalize_spec" targetname: "ada__tags__unregister_tag" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:60:1" }
-node: { title: "system__finalization_masters__finalize" label: "Finalize\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/s-finmas.ads:92:25" shape : ellipse }
-edge: { sourcename: "pcd8544__finalize_spec" targetname: "system__finalization_masters__finalize" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:68:9" }
+edge: { sourcename: "pcd8544__Tpcd8544_bitmap_bufferCFD" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+node: { title: "pcd8544__pcd8544_deviceIP" label: "PCD8544_DEVICEIP\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:196:9\n32 bytes (static)" }
+edge: { sourcename: "pcd8544__pcd8544_deviceIP" targetname: "pcd8544__pcd8544_bitmap_bufferIP" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:203:10" }
+node: { title: "pcd8544_reg__pcd8544_function_registerIP" label: "Pcd8544_Function_Registerip\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544_reg.ads:50:9" shape : ellipse }
+edge: { sourcename: "pcd8544__pcd8544_deviceIP" targetname: "pcd8544_reg__pcd8544_function_registerIP" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:206:10" }
+node: { title: "pcd8544_reg__pcd8544_display_registerIP" label: "Pcd8544_Display_Registerip\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544_reg.ads:65:9" shape : ellipse }
+edge: { sourcename: "pcd8544__pcd8544_deviceIP" targetname: "pcd8544_reg__pcd8544_display_registerIP" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:207:10" }
+node: { title: "pcd8544___size__5" label: "PCD8544\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:196:9\n16 bytes (static)" }
+node: { title: "pcd8544__pcd8544_devicePI__2" label: "PCD8544_DEVICEPI\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:196:9\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__pcd8544_devicePI__2" targetname: "system__put_images__put_image_unknown" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:196:9" }
+node: { title: "pcd8544__pcd8544_deviceDF__2" label: "PCD8544_DEVICEDF\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:196:9\n16 bytes (static)" }
+node: { title: "pcd8544__Tpcd8544_deviceCFD" label: "TPCD8544_DEVICECFD\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:61:9\n32 bytes (static)" }
+edge: { sourcename: "pcd8544__Tpcd8544_deviceCFD" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:61:9" }
+node: { title: "pcd8544__finalize_spec" label: "FINALIZE_SPEC\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:60:1\n16 bytes (static)" }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\a-tags.ads:589:14" shape : ellipse }
+edge: { sourcename: "pcd8544__finalize_spec" targetname: "ada__tags__unregister_tag" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:60:1" }
+edge: { sourcename: "pcd8544__finalize_spec" targetname: "ada__tags__unregister_tag" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:60:1" }
+node: { title: "system__finalization_masters__finalize" label: "Finalize\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\s-finmas.ads:92:25" shape : ellipse }
+edge: { sourcename: "pcd8544__finalize_spec" targetname: "system__finalization_masters__finalize" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:68:9" }
 node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
 edge: { sourcename: "pcd8544__finalize_spec" targetname: "_Unwind_Resume" }
 node: { title: "__gnat_begin_handler_v1" label: "gnat_begin_handler_v1\n<built-in>" shape : ellipse }
-edge: { sourcename: "pcd8544__finalize_spec" targetname: "__gnat_begin_handler_v1" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:60:1" }
+edge: { sourcename: "pcd8544__finalize_spec" targetname: "__gnat_begin_handler_v1" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:60:1" }
 node: { title: "__gnat_end_handler_v1" label: "gnat_end_handler_v1\n<built-in>" shape : ellipse }
-edge: { sourcename: "pcd8544__finalize_spec" targetname: "__gnat_end_handler_v1" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:60:1" }
-node: { title: "pcd8544__chip_select" label: "CHIP_SELECT\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:38:4\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__finalize_spec" targetname: "__gnat_end_handler_v1" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:60:1" }
+node: { title: "pcd8544__chip_select" label: "CHIP_SELECT\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:38:4\n16 bytes (static)" }
 node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
-edge: { sourcename: "pcd8544__chip_select" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:38:4" }
+edge: { sourcename: "pcd8544__chip_select" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:38:4" }
 node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
-edge: { sourcename: "pcd8544__chip_select" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:43:17" }
-edge: { sourcename: "pcd8544__chip_select" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:43:20" }
-edge: { sourcename: "pcd8544__chip_select" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:45:17" }
-edge: { sourcename: "pcd8544__chip_select" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:45:20" }
-node: { title: "pcd8544__reset" label: "RESET\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:54:4\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__reset" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:54:4" }
-edge: { sourcename: "pcd8544__reset" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:57:14" }
-edge: { sourcename: "pcd8544__reset" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:57:18" }
-edge: { sourcename: "pcd8544__reset" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:58:14" }
-edge: { sourcename: "pcd8544__reset" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:58:18" }
-edge: { sourcename: "pcd8544__reset" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:61:19" }
-node: { title: "pcd8544__transmit" label: "TRANSMIT\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:69:4\n80 bytes (dynamic)" }
-edge: { sourcename: "pcd8544__transmit" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:69:4" }
-edge: { sourcename: "pcd8544__transmit" targetname: "pcd8544__chip_select" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:72:11" }
-edge: { sourcename: "pcd8544__transmit" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:73:14" }
-edge: { sourcename: "pcd8544__transmit" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/hal/src/hal-spi.ads:60:21" }
-node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/s-assert.ads:48:14" shape : ellipse }
-edge: { sourcename: "pcd8544__transmit" targetname: "system__assertions__raise_assert_failure" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:74:16" }
-edge: { sourcename: "pcd8544__transmit" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:74:16" }
-edge: { sourcename: "pcd8544__transmit" targetname: "pcd8544__chip_select" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:75:11" }
+edge: { sourcename: "pcd8544__chip_select" targetname: "__gnat_rcheck_CE_Access_Check" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:43:17" }
+edge: { sourcename: "pcd8544__chip_select" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:43:20" }
+edge: { sourcename: "pcd8544__chip_select" targetname: "__gnat_rcheck_CE_Access_Check" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:45:17" }
+edge: { sourcename: "pcd8544__chip_select" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:45:20" }
+node: { title: "pcd8544__reset" label: "RESET\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:54:4\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__reset" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:54:4" }
+edge: { sourcename: "pcd8544__reset" targetname: "__gnat_rcheck_CE_Access_Check" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:57:14" }
+edge: { sourcename: "pcd8544__reset" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:57:18" }
+edge: { sourcename: "pcd8544__reset" targetname: "__gnat_rcheck_CE_Access_Check" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:58:14" }
+edge: { sourcename: "pcd8544__reset" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:58:18" }
+edge: { sourcename: "pcd8544__reset" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:61:19" }
+node: { title: "pcd8544__transmit" label: "TRANSMIT\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:69:4\n80 bytes (dynamic)" }
+edge: { sourcename: "pcd8544__transmit" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:69:4" }
+edge: { sourcename: "pcd8544__transmit" targetname: "pcd8544__chip_select" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:72:11" }
+edge: { sourcename: "pcd8544__transmit" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:73:14" }
+edge: { sourcename: "pcd8544__transmit" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\hal\src\hal-spi.ads:60:21" }
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\s-assert.ads:48:14" shape : ellipse }
+edge: { sourcename: "pcd8544__transmit" targetname: "system__assertions__raise_assert_failure" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:74:16" }
+edge: { sourcename: "pcd8544__transmit" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:74:16" }
+edge: { sourcename: "pcd8544__transmit" targetname: "pcd8544__chip_select" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:75:11" }
 node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
-edge: { sourcename: "pcd8544__transmit" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:77:73" }
+edge: { sourcename: "pcd8544__transmit" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:77:73" }
 edge: { sourcename: "pcd8544__transmit" targetname: "memcpy" }
-node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/a-except.ads:178:14" shape : ellipse }
-edge: { sourcename: "pcd8544__transmit" targetname: "__gnat_raise_exception" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:77:10" }
-node: { title: "pcd8544__transmit__2" label: "TRANSMIT\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:85:4\n88 bytes (dynamic)" }
-edge: { sourcename: "pcd8544__transmit__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:85:4" }
-edge: { sourcename: "pcd8544__transmit__2" targetname: "pcd8544__chip_select" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:88:11" }
-edge: { sourcename: "pcd8544__transmit__2" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:89:14" }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\a-except.ads:178:14" shape : ellipse }
+edge: { sourcename: "pcd8544__transmit" targetname: "__gnat_raise_exception" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:77:10" }
+node: { title: "pcd8544__transmit__2" label: "TRANSMIT\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:85:4\n88 bytes (dynamic)" }
+edge: { sourcename: "pcd8544__transmit__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:85:4" }
+edge: { sourcename: "pcd8544__transmit__2" targetname: "pcd8544__chip_select" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:88:11" }
+edge: { sourcename: "pcd8544__transmit__2" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:89:14" }
 node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
-edge: { sourcename: "pcd8544__transmit__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:90:40" }
-edge: { sourcename: "pcd8544__transmit__2" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/hal/src/hal-spi.ads:60:21" }
-edge: { sourcename: "pcd8544__transmit__2" targetname: "system__assertions__raise_assert_failure" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:90:16" }
-edge: { sourcename: "pcd8544__transmit__2" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:90:16" }
-edge: { sourcename: "pcd8544__transmit__2" targetname: "pcd8544__chip_select" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:91:11" }
-edge: { sourcename: "pcd8544__transmit__2" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:93:70" }
+edge: { sourcename: "pcd8544__transmit__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:90:40" }
+edge: { sourcename: "pcd8544__transmit__2" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\hal\src\hal-spi.ads:60:21" }
+edge: { sourcename: "pcd8544__transmit__2" targetname: "system__assertions__raise_assert_failure" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:90:16" }
+edge: { sourcename: "pcd8544__transmit__2" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:90:16" }
+edge: { sourcename: "pcd8544__transmit__2" targetname: "pcd8544__chip_select" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:91:11" }
+edge: { sourcename: "pcd8544__transmit__2" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:93:70" }
 edge: { sourcename: "pcd8544__transmit__2" targetname: "memcpy" }
-edge: { sourcename: "pcd8544__transmit__2" targetname: "__gnat_raise_exception" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:93:10" }
-node: { title: "pcd8544__extended_mode" label: "EXTENDED_MODE\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:101:4\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__extended_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:101:4" }
-edge: { sourcename: "pcd8544__extended_mode" targetname: "pcd8544__transmit" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:105:14" }
-node: { title: "pcd8544__basic_mode" label: "BASIC_MODE\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:113:4\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__basic_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:113:4" }
-edge: { sourcename: "pcd8544__basic_mode" targetname: "pcd8544__transmit" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:117:14" }
-node: { title: "pcd8544__set_contrast" label: "SET_CONTRAST\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:125:4\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__set_contrast" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:125:4" }
-edge: { sourcename: "pcd8544__set_contrast" targetname: "pcd8544__extended_mode" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:129:11" }
-edge: { sourcename: "pcd8544__set_contrast" targetname: "pcd8544__transmit" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:130:11" }
-node: { title: "pcd8544__set_bias" label: "SET_BIAS\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:137:4\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__set_bias" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:137:4" }
-edge: { sourcename: "pcd8544__set_bias" targetname: "pcd8544__extended_mode" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:141:11" }
-edge: { sourcename: "pcd8544__set_bias" targetname: "pcd8544__transmit" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:142:11" }
-node: { title: "pcd8544__set_temperature" label: "SET_TEMPERATURE\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:149:4\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__set_temperature" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:149:4" }
-edge: { sourcename: "pcd8544__set_temperature" targetname: "pcd8544__extended_mode" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:153:11" }
-edge: { sourcename: "pcd8544__set_temperature" targetname: "pcd8544__transmit" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:154:11" }
-node: { title: "pcd8544__set_display_mode" label: "SET_DISPLAY_MODE\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:161:4\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__set_display_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:161:4" }
-edge: { sourcename: "pcd8544__set_display_mode" targetname: "pcd8544__basic_mode" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:166:11" }
-edge: { sourcename: "pcd8544__set_display_mode" targetname: "pcd8544__transmit" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:169:11" }
-node: { title: "pcd8544__initialize" label: "INITIALIZE\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:176:4\n24 bytes (static)" }
-edge: { sourcename: "pcd8544__initialize" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:176:4" }
-edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544_reg__pcd8544_function_registerIP" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:177:7" }
-edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544_reg__pcd8544_display_registerIP" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:178:7" }
-edge: { sourcename: "pcd8544__initialize" targetname: "__indirect_call" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:180:14" }
-edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__reset" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:181:11" }
-edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__transmit" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:188:11" }
-edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__set_contrast" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:190:11" }
-edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__set_bias" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:191:11" }
-edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__set_temperature" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:192:11" }
-edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__transmit" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:196:11" }
-edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__set_display_mode" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:198:11" }
-node: { title: "pcd8544__write_raw_pixels" label: "WRITE_RAW_PIXELS\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:209:4\n24 bytes (static)" }
-edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:209:4" }
-edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__chip_select" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:214:11" }
-edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__basic_mode" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:215:11" }
-edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__transmit" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:216:11" }
-edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__transmit" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:217:11" }
-edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__transmit__2" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:218:11" }
-edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__chip_select" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:219:11" }
-node: { title: "pcd8544__initialized" label: "INITIALIZED\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:226:15\n16 bytes (static)" }
-node: { title: "pcd8544__max_layers" label: "MAX_LAYERS\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:233:15\n16 bytes (static)" }
-node: { title: "pcd8544__supported" label: "SUPPORTED\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:240:15\n16 bytes (static)" }
-node: { title: "pcd8544__set_orientation" label: "SET_ORIENTATION\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:248:15\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__set_orientation" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:248:15" }
-node: { title: "pcd8544__set_mode" label: "SET_MODE\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:259:15\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__set_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:259:15" }
-node: { title: "pcd8544__width" label: "WIDTH\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:266:15\n16 bytes (static)" }
-node: { title: "pcd8544__height" label: "HEIGHT\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:273:15\n16 bytes (static)" }
-node: { title: "pcd8544__swapped" label: "SWAPPED\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:280:15\n16 bytes (static)" }
-node: { title: "pcd8544__set_background" label: "SET_BACKGROUND\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:287:15\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__set_background" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:287:15" }
+edge: { sourcename: "pcd8544__transmit__2" targetname: "__gnat_raise_exception" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:93:10" }
+node: { title: "pcd8544__extended_mode" label: "EXTENDED_MODE\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:101:4\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__extended_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:101:4" }
+edge: { sourcename: "pcd8544__extended_mode" targetname: "pcd8544__transmit" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:105:14" }
+node: { title: "pcd8544__basic_mode" label: "BASIC_MODE\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:113:4\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__basic_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:113:4" }
+edge: { sourcename: "pcd8544__basic_mode" targetname: "pcd8544__transmit" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:117:14" }
+node: { title: "pcd8544__set_contrast" label: "SET_CONTRAST\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:125:4\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__set_contrast" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:125:4" }
+edge: { sourcename: "pcd8544__set_contrast" targetname: "pcd8544__extended_mode" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:129:11" }
+edge: { sourcename: "pcd8544__set_contrast" targetname: "pcd8544__transmit" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:130:11" }
+node: { title: "pcd8544__set_bias" label: "SET_BIAS\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:137:4\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__set_bias" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:137:4" }
+edge: { sourcename: "pcd8544__set_bias" targetname: "pcd8544__extended_mode" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:141:11" }
+edge: { sourcename: "pcd8544__set_bias" targetname: "pcd8544__transmit" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:142:11" }
+node: { title: "pcd8544__set_temperature" label: "SET_TEMPERATURE\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:149:4\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__set_temperature" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:149:4" }
+edge: { sourcename: "pcd8544__set_temperature" targetname: "pcd8544__extended_mode" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:153:11" }
+edge: { sourcename: "pcd8544__set_temperature" targetname: "pcd8544__transmit" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:154:11" }
+node: { title: "pcd8544__set_display_mode" label: "SET_DISPLAY_MODE\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:161:4\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__set_display_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:161:4" }
+edge: { sourcename: "pcd8544__set_display_mode" targetname: "pcd8544__basic_mode" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:166:11" }
+edge: { sourcename: "pcd8544__set_display_mode" targetname: "pcd8544__transmit" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:169:11" }
+node: { title: "pcd8544__initialize" label: "INITIALIZE\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:176:4\n24 bytes (static)" }
+edge: { sourcename: "pcd8544__initialize" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:176:4" }
+edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544_reg__pcd8544_function_registerIP" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:177:7" }
+edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544_reg__pcd8544_display_registerIP" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:178:7" }
+edge: { sourcename: "pcd8544__initialize" targetname: "__indirect_call" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:180:14" }
+edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__reset" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:181:11" }
+edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__transmit" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:188:11" }
+edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__set_contrast" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:190:11" }
+edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__set_bias" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:191:11" }
+edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__set_temperature" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:192:11" }
+edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__transmit" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:196:11" }
+edge: { sourcename: "pcd8544__initialize" targetname: "pcd8544__set_display_mode" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:198:11" }
+node: { title: "pcd8544__write_raw_pixels" label: "WRITE_RAW_PIXELS\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:209:4\n24 bytes (static)" }
+edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:209:4" }
+edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__chip_select" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:214:11" }
+edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__basic_mode" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:215:11" }
+edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__transmit" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:216:11" }
+edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__transmit" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:217:11" }
+edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__transmit__2" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:218:11" }
+edge: { sourcename: "pcd8544__write_raw_pixels" targetname: "pcd8544__chip_select" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:219:11" }
+node: { title: "pcd8544__initialized" label: "INITIALIZED\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:226:15\n16 bytes (static)" }
+node: { title: "pcd8544__max_layers" label: "MAX_LAYERS\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:233:15\n16 bytes (static)" }
+node: { title: "pcd8544__supported" label: "SUPPORTED\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:240:15\n16 bytes (static)" }
+node: { title: "pcd8544__set_orientation" label: "SET_ORIENTATION\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:248:15\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__set_orientation" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:248:15" }
+node: { title: "pcd8544__set_mode" label: "SET_MODE\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:259:15\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__set_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:259:15" }
+node: { title: "pcd8544__width" label: "WIDTH\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:266:15\n16 bytes (static)" }
+node: { title: "pcd8544__height" label: "HEIGHT\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:273:15\n16 bytes (static)" }
+node: { title: "pcd8544__swapped" label: "SWAPPED\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:280:15\n16 bytes (static)" }
+node: { title: "pcd8544__set_background" label: "SET_BACKGROUND\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:287:15\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__set_background" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:287:15" }
 node: { title: "__gnat_rcheck_PE_Explicit_Raise" label: "gnat_rcheck_PE_Explicit_Raise\n<built-in>" shape : ellipse }
-edge: { sourcename: "pcd8544__set_background" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:290:7" }
-node: { title: "pcd8544__initialize_layer" label: "INITIALIZE_LAYER\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:297:15\n32 bytes (static)" }
-edge: { sourcename: "pcd8544__initialize_layer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:297:15" }
-edge: { sourcename: "pcd8544__initialize_layer" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:308:10" }
-edge: { sourcename: "pcd8544__initialize_layer" targetname: "pcd8544__width" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:310:50" }
-edge: { sourcename: "pcd8544__initialize_layer" targetname: "pcd8544__height" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:311:50" }
-node: { title: "pcd8544__initialized__2" label: "INITIALIZED\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:325:15\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__initialized__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:325:15" }
-node: { title: "pcd8544__update_layer" label: "UPDATE_LAYER\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:337:15\n32 bytes (static)" }
-edge: { sourcename: "pcd8544__update_layer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:337:15" }
-edge: { sourcename: "pcd8544__update_layer" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:345:10" }
-edge: { sourcename: "pcd8544__update_layer" targetname: "pcd8544__write_raw_pixels" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:348:11" }
-node: { title: "pcd8544__color_mode" label: "COLOR_MODE\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:355:15\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__color_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:355:15" }
-edge: { sourcename: "pcd8544__color_mode" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:361:10" }
-node: { title: "pcd8544__hidden_buffer" label: "HIDDEN_BUFFER\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:370:15\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__hidden_buffer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:370:15" }
-edge: { sourcename: "pcd8544__hidden_buffer" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:376:10" }
-node: { title: "pcd8544__update_layers" label: "UPDATE_LAYERS\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:385:15\n16 bytes (static)" }
-edge: { sourcename: "pcd8544__update_layers" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:385:15" }
-edge: { sourcename: "pcd8544__update_layers" targetname: "pcd8544__update_layer" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:387:11" }
-node: { title: "pcd8544__pixel_size" label: "PIXEL_SIZE\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:394:15\n16 bytes (static)" }
-node: { title: "pcd8544___elabb" label: "PCD8544\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.adb:32:1\n4 bytes (static)" }
-node: { title: "pcd8544___elabs" label: "PCD8544\n/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:60:1\n8 bytes (static)" }
-node: { title: "system__finalization_masters__finalization_masterIP" label: "Finalization_Masterip\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/s-finmas.ads:157:9" shape : ellipse }
-edge: { sourcename: "pcd8544___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:68:9" }
-node: { title: "system__finalization_masters__initialize__2" label: "Initialize\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/s-finmas.ads:194:25" shape : ellipse }
-edge: { sourcename: "pcd8544___elabs" targetname: "system__finalization_masters__initialize__2" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:68:9" }
-node: { title: "system__finalization_masters__set_base_pool" label: "Set_Base_Pool\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/s-finmas.ads:197:14" shape : ellipse }
-edge: { sourcename: "pcd8544___elabs" targetname: "system__finalization_masters__set_base_pool" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:68:9" }
-node: { title: "system__finalization_masters__set_finalize_address" label: "Set_Finalize_Address\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/s-finmas.ads:122:14" shape : ellipse }
-edge: { sourcename: "pcd8544___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:68:9" }
-node: { title: "ada__tags__check_tsd" label: "Check_Tsd\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/a-tags.ads:466:14" shape : ellipse }
-edge: { sourcename: "pcd8544___elabs" targetname: "ada__tags__check_tsd" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:196:9" }
-node: { title: "ada__tags__register_tag" label: "Register_Tag\n/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/gnat/a-tags.ads:553:14" shape : ellipse }
-edge: { sourcename: "pcd8544___elabs" targetname: "ada__tags__register_tag" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:196:9" }
-edge: { sourcename: "pcd8544___elabs" targetname: "ada__tags__check_tsd" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
-edge: { sourcename: "pcd8544___elabs" targetname: "ada__tags__register_tag" label: "/home/jon/Documents/Project-VE3140-Fall/Ada_Drivers_Library/components/src/screen/pcd8544/pcd8544.ads:191:9" }
+edge: { sourcename: "pcd8544__set_background" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:290:7" }
+node: { title: "pcd8544__initialize_layer" label: "INITIALIZE_LAYER\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:297:15\n32 bytes (static)" }
+edge: { sourcename: "pcd8544__initialize_layer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:297:15" }
+edge: { sourcename: "pcd8544__initialize_layer" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:308:10" }
+edge: { sourcename: "pcd8544__initialize_layer" targetname: "pcd8544__width" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:310:50" }
+edge: { sourcename: "pcd8544__initialize_layer" targetname: "pcd8544__height" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:311:50" }
+node: { title: "pcd8544__initialized__2" label: "INITIALIZED\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:325:15\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__initialized__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:325:15" }
+node: { title: "pcd8544__update_layer" label: "UPDATE_LAYER\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:337:15\n32 bytes (static)" }
+edge: { sourcename: "pcd8544__update_layer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:337:15" }
+edge: { sourcename: "pcd8544__update_layer" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:345:10" }
+edge: { sourcename: "pcd8544__update_layer" targetname: "pcd8544__write_raw_pixels" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:348:11" }
+node: { title: "pcd8544__color_mode" label: "COLOR_MODE\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:355:15\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__color_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:355:15" }
+edge: { sourcename: "pcd8544__color_mode" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:361:10" }
+node: { title: "pcd8544__hidden_buffer" label: "HIDDEN_BUFFER\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:370:15\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__hidden_buffer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:370:15" }
+edge: { sourcename: "pcd8544__hidden_buffer" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:376:10" }
+node: { title: "pcd8544__update_layers" label: "UPDATE_LAYERS\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:385:15\n16 bytes (static)" }
+edge: { sourcename: "pcd8544__update_layers" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:385:15" }
+edge: { sourcename: "pcd8544__update_layers" targetname: "pcd8544__update_layer" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:387:11" }
+node: { title: "pcd8544__pixel_size" label: "PIXEL_SIZE\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:394:15\n16 bytes (static)" }
+node: { title: "pcd8544___elabb" label: "PCD8544\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.adb:32:1\n4 bytes (static)" }
+node: { title: "pcd8544___elabs" label: "PCD8544\nD:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:60:1\n8 bytes (static)" }
+node: { title: "system__finalization_masters__finalization_masterIP" label: "Finalization_Masterip\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\s-finmas.ads:157:9" shape : ellipse }
+edge: { sourcename: "pcd8544___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:68:9" }
+node: { title: "system__finalization_masters__initialize__2" label: "Initialize\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\s-finmas.ads:194:25" shape : ellipse }
+edge: { sourcename: "pcd8544___elabs" targetname: "system__finalization_masters__initialize__2" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:68:9" }
+node: { title: "system__finalization_masters__set_base_pool" label: "Set_Base_Pool\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\s-finmas.ads:197:14" shape : ellipse }
+edge: { sourcename: "pcd8544___elabs" targetname: "system__finalization_masters__set_base_pool" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:68:9" }
+node: { title: "system__finalization_masters__set_finalize_address" label: "Set_Finalize_Address\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\s-finmas.ads:122:14" shape : ellipse }
+edge: { sourcename: "pcd8544___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:68:9" }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\a-tags.ads:466:14" shape : ellipse }
+edge: { sourcename: "pcd8544___elabs" targetname: "ada__tags__check_tsd" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:196:9" }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nD:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\gnat\a-tags.ads:553:14" shape : ellipse }
+edge: { sourcename: "pcd8544___elabs" targetname: "ada__tags__register_tag" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:196:9" }
+edge: { sourcename: "pcd8544___elabs" targetname: "ada__tags__check_tsd" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
+edge: { sourcename: "pcd8544___elabs" targetname: "ada__tags__register_tag" label: "D:\git-repos\Jon-Git\Project-VE3140-Fall\Ada_Drivers_Library\components\src\screen\pcd8544\pcd8544.ads:191:9" }
 }

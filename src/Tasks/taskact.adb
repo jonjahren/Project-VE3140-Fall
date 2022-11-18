@@ -98,6 +98,36 @@ package body TaskAct is
             Instruction.RightBackSpeed := 512;
             Instruction.RightBackPin2 := True;
             Instruction.RightBackPin1 := not Instruction.RightBackPin2;
+            
+        when Right =>
+            Instruction.LeftFrontSpeed := 512; -- speed is dutycycle between 0 and 100% => so a value between 0 and 1023
+            Instruction.LeftFrontPin2 := not True;
+            Instruction.LeftFrontPin1 := not Instruction.LeftFrontPin2; -- the second pin is always the opposite of the first!
+            Instruction.LeftBackSpeed := 512;  
+            Instruction.LeftBackPin2 := True;
+            Instruction.LeftBackPin1 := not Instruction.LeftBackPin2;
+           
+            Instruction.RightFrontSpeed := 512; -- the speed of right front wheel is equal to the left front wheel. For traditional steering (eg turn left) the speed of left wheel is slower than right wheel 
+            Instruction.RightFrontPin2 := True;
+            Instruction.RightFrontPin1 := not Instruction.RightFrontPin2; 
+            Instruction.RightBackSpeed := 512;
+            Instruction.RightBackPin2 := not True;
+            Instruction.RightBackPin1 := not Instruction.RightBackPin2;
+            
+        when Left =>
+            Instruction.LeftFrontSpeed := 512; -- speed is dutycycle between 0 and 100% => so a value between 0 and 1023
+            Instruction.LeftFrontPin2 := True;
+            Instruction.LeftFrontPin1 := not Instruction.LeftFrontPin2; -- the second pin is always the opposite of the first!
+            Instruction.LeftBackSpeed := 512;  
+            Instruction.LeftBackPin2 := not True;
+            Instruction.LeftBackPin1 := not Instruction.LeftBackPin2;
+           
+            Instruction.RightFrontSpeed := 512; -- the speed of right front wheel is equal to the left front wheel. For traditional steering (eg turn left) the speed of left wheel is slower than right wheel 
+            Instruction.RightFrontPin2 := not True;
+            Instruction.RightFrontPin1 := not Instruction.RightFrontPin2; 
+            Instruction.RightBackSpeed := 512;
+            Instruction.RightBackPin2 := True;
+            Instruction.RightBackPin1 := not Instruction.RightBackPin2;
         end case;
       
         ControlMotor(Instruction, MotorDriver.GetMotorPins);

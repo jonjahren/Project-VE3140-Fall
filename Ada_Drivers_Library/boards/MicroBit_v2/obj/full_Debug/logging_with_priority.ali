@@ -1,7 +1,7 @@
 V "GNAT Lib v2021"
 A -O0
 A -gnatA
-A --RTS=/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/
+A --RTS=D:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\
 A -mlittle-endian
 A -mthumb
 A -mfloat-abi=hard
@@ -28,9 +28,9 @@ U logging_with_priority%b  logging_with_priority.adb  12200fb4 NE OO PK GE
 
 U logging_with_priority%s  logging_with_priority.ads  b12d529d BN EE NE OO PK GE
 
-D logging_with_priority.ads  20221102095709 b12d529d logging_with_priority%s
-D logging_with_priority.adb  20221102095709 a30d5d29 logging_with_priority%b
-D system.ads		20221006073826 ad54c63c system%s
+D logging_with_priority.ads  20221118113618 b12d529d logging_with_priority%s
+D logging_with_priority.adb  20221118113618 a30d5d29 logging_with_priority%b
+D system.ads		20220915123908 ad54c63c system%s
 G a e
 G c Z s b [logging_with_priority standard 44 9 none]
 X 1 logging_with_priority.ads

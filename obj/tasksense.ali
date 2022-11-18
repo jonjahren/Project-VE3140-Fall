@@ -1,6 +1,6 @@
 V "GNAT Lib v2021"
 A -gnatA
-A --RTS=/home/jon/bin/GNAT/2021-arm-elf/arm-eabi/lib/gnat/ravenscar-full-nrf52833/
+A --RTS=D:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\
 A -mlittle-endian
 A -mthumb
 A -mfloat-abi=hard
@@ -14,6 +14,7 @@ RN
 RV NO_DELAY
 RV NO_FIXED_POINT
 RV NO_IO
+RV NO_RELATIVE_DELAY
 RV NO_STANDARD_STORAGE_POOLS
 RV NO_TASKING
 RV STATIC_PRIORITIES
@@ -24,7 +25,7 @@ RV NO_ELABORATION_CODE
 RV MAX_TASKS=1
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U tasksense%b		tasksense.adb		9e8ed42c OO PK
+U tasksense%b		tasksense.adb		52b67b71 OO PK
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
@@ -36,10 +37,11 @@ Z interfaces%s		interfac.ads		interfac.ali
 Z mybrain%s		mybrain.adb		mybrain.ali  AD
 Z system.img_fixed_64%s	s-imfi64.ads		s-imfi64.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.relative_delays%s  s-reldel.adb	s-reldel.ali
 Z system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
 W ultrasonic%s		ultrasonic.adb		ultrasonic.ali  AD
 
-U tasksense%s		tasksense.ads		96020bb1 EE OO PK
+U tasksense%s		tasksense.ads		efd70bc6 EE OO PK
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W mybrain%s		mybrain.adb		mybrain.ali
 Z system%s		system.ads		system.ali
@@ -50,120 +52,127 @@ Z system.tasking%s	s-taskin.adb		s-taskin.ali
 Z system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
 T 1 1
 
-D ada.ads		20221006073826 76789da1 ada%s
-D a-charac.ads		20221006073826 2d3ec45b ada.characters%s
-D a-chlat1.ads		20221006073826 66457d31 ada.characters.latin_1%s
-D a-except.ads		20221006073826 946f3014 ada.exceptions%s
-D a-finali.ads		20221006073826 bf4f806b ada.finalization%s
-D a-interr.ads		20221006073826 bdf68b51 ada.interrupts%s
-D a-intnam.ads		20221006073826 543e27b6 ada.interrupts.names%s
-D a-reatim.ads		20221006073826 cfe92427 ada.real_time%s
-D a-retide.ads		20221006073826 081cdaa4 ada.real_time.delays%s
-D a-stream.ads		20221006073826 119b8fb3 ada.streams%s
-D a-string.ads		20221006073826 90ac6797 ada.strings%s
-D a-strmap.ads		20221006073826 5a88892a ada.strings.maps%s
-D a-sttebu.ads		20221006073826 18209c64 ada.strings.text_buffers%s
-D a-strunb.ads		20221006073826 08aeb57a ada.strings.unbounded%s
-D a-stuten.ads		20221006073826 808c40ad ada.strings.utf_encoding%s
-D a-tags.ads		20221006073826 9eaa38c6 ada.tags%s
-D a-taside.ads		20221006073826 00e3a3f6 ada.task_identification%s
-D a-textio.ads		20221006073826 ffc84532 ada.text_io%s
-D a-unccon.ads		20221006073826 0e9b276f ada.unchecked_conversion%s
-D hal.ads		20221102095709 2b42c80e hal%s
-D hal-gpio.ads		20221102095709 7f0c2ffe hal.gpio%s
-D hal-i2c.ads		20221102095709 0ed73138 hal.i2c%s
-D hal-spi.ads		20221102095709 fe139819 hal.spi%s
-D hal-uart.ads		20221102095709 d58316b4 hal.uart%s
-D interfac.ads		20221006073826 edec285f interfaces%s
-D microbit.ads		20221102095709 3b54a3e8 microbit%s
-D microbit-iosfortasking.ads  20221102095709 4fea7ff2 microbit.iosfortasking%s
-D mybrain.ads		20221117135222 9b5b53de mybrain%s
-D nrf.ads		20221102095709 74cf72f5 nrf%s
-D nrf-device.ads	20221102095709 9c9916c4 nrf.device%s
-D nrf-gpio.ads		20221102095709 ab6d4598 nrf.gpio%s
-D nrf-rtc.ads		20221102095709 36d88130 nrf.rtc%s
-D nrf-spi_master.ads	20221102095709 a8ff49a3 nrf.spi_master%s
-D nrf-timers.ads	20221102095709 15fa58e3 nrf.timers%s
-D nrf-twi.ads		20221102095709 4881713f nrf.twi%s
-D nrf-uart.ads		20221102095709 9fa4b8b9 nrf.uart%s
-D nrf_svd.ads		20221102095709 87ba21d7 nrf_svd%s
-D nrf_svd-rtc.ads	20221102095709 57c7ffc8 nrf_svd.rtc%s
-D nrf_svd-spi.ads	20221102095709 6e2ffb69 nrf_svd.spi%s
-D nrf_svd-timer.ads	20221102095709 ba50db1c nrf_svd.timer%s
-D nrf_svd-twi.ads	20221102095709 68301534 nrf_svd.twi%s
-D nrf_svd-uart.ads	20221102095709 83bcebc8 nrf_svd.uart%s
-D system.ads		20221006073826 ad54c63c system%s
-D s-arit64.ads		20221006073826 5f88d2b0 system.arith_64%s
-D s-bb.ads		20221006073826 09e072ae system.bb%s
-D s-bbbopa.ads		20221006073826 f68efaf0 system.bb.board_parameters%s
-D s-bbbosu.ads		20221006073826 0f820a2a system.bb.board_support%s
-D s-bbcppr.ads		20221006073826 ac5bcd4d system.bb.cpu_primitives%s
-D s-bbinte.ads		20221006073826 c88d39da system.bb.interrupts%s
-D s-bbmcpa.ads		20221006073826 9339744a system.bb.mcu_parameters%s
-D s-bbpara.ads		20221006073826 63167d1e system.bb.parameters%s
-D s-bbthre.ads		20221006073826 c94b446f system.bb.threads%s
-D s-bbthqu.ads		20221006073826 cd23d79e system.bb.threads.queues%s
-D s-bbtime.ads		20221006073826 ad086247 system.bb.time%s
-D s-finmas.ads		20221006073826 1ab4dba8 system.finalization_masters%s
-D s-finroo.ads		20221006073826 4ff27390 system.finalization_root%s
-D s-imagef.ads		20221006073826 019cdf69 system.image_f%s
-D s-imagei.ads		20221006073826 0d3f86a7 system.image_i%s
-D s-imfi64.ads		20221006073826 dbac59b3 system.img_fixed_64%s
-D s-imgint.ads		20221006073826 bdb6f5ec system.img_int%s
-D s-interr.ads		20221006073826 d74bd991 system.interrupts%s
-D s-multip.ads		20221006073826 f33e0e35 system.multiprocessors%s
-D s-mufalo.ads		20221006073826 3dca0374 system.multiprocessors.fair_locks%s
-D s-musplo.ads		20221006073826 69fa25c4 system.multiprocessors.spin_locks%s
-D s-osinte.ads		20221006073826 229b14dd system.os_interface%s
-D s-parame.ads		20221006073826 8e90778f system.parameters%s
-D s-pooglo.ads		20221006073826 ede33ef8 system.pool_global%s
-D s-putima.ads		20221006073826 4e095881 system.put_images%s
-D s-secsta.ads		20221006073826 56a2861c system.secondary_stack%s
-D s-stalib.ads		20221006073826 472fbca8 system.standard_library%s
-D s-stoele.ads		20221006073826 2dc34a04 system.storage_elements%s
-D s-stoele.adb		20221006073826 ed88f8fb system.storage_elements%b
-D s-stopoo.ads		20221006073826 e9fa2dd8 system.storage_pools%s
-D s-stratt.ads		20221006073826 7bdda3fa system.stream_attributes%s
-D s-tasinf.ads		20221006073826 801abd01 system.task_info%s
-D s-taspri.ads		20221006073826 37f162b4 system.task_primitives%s
-D s-taskin.ads		20221006073826 989d56fd system.tasking%s
-D s-taprob.ads		20221006073826 c8fc0753 system.tasking.protected_objects%s
-D s-tasres.ads		20221006073826 0c8ef6fb system.tasking.restricted%s
-D s-tarest.ads		20221006073826 c88b6d9a system.tasking.restricted.stages%s
-D s-traent.ads		20221006073826 26a8d361 system.traceback_entries%s
-D s-unstyp.ads		20221006073826 2b077493 system.unsigned_types%s
-D tasksense.ads		20221116082117 0d59586f tasksense%s
-D tasksense.adb		20221117135214 261d69f8 tasksense%b
-D ultrasonic.ads	20221116082117 8d4531d4 ultrasonic%s
-D unchconv.ads		20221006073826 ca2f9e18 unchecked_conversion%s
+D ada.ads		20220915123906 76789da1 ada%s
+D a-charac.ads		20220915123906 2d3ec45b ada.characters%s
+D a-chlat1.ads		20220915123906 66457d31 ada.characters.latin_1%s
+D a-except.ads		20220915123906 946f3014 ada.exceptions%s
+D a-finali.ads		20220915123906 bf4f806b ada.finalization%s
+D a-interr.ads		20220915123908 bdf68b51 ada.interrupts%s
+D a-intnam.ads		20220915123908 543e27b6 ada.interrupts.names%s
+D a-reatim.ads		20220915123908 cfe92427 ada.real_time%s
+D a-retide.ads		20220915123908 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20220915123906 119b8fb3 ada.streams%s
+D a-string.ads		20220915123906 90ac6797 ada.strings%s
+D a-strmap.ads		20220915123906 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20220915123906 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20220915123906 08aeb57a ada.strings.unbounded%s
+D a-stuten.ads		20220915123906 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20220915123906 9eaa38c6 ada.tags%s
+D a-taside.ads		20220915123908 00e3a3f6 ada.task_identification%s
+D a-textio.ads		20220915123906 ffc84532 ada.text_io%s
+D a-unccon.ads		20220915123906 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20221118113618 2b42c80e hal%s
+D hal-gpio.ads		20221118113618 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20221118113618 0ed73138 hal.i2c%s
+D hal-spi.ads		20221118113618 fe139819 hal.spi%s
+D hal-uart.ads		20221118113618 d58316b4 hal.uart%s
+D interfac.ads		20220915123906 edec285f interfaces%s
+D microbit.ads		20221118113618 3b54a3e8 microbit%s
+D microbit-iosfortasking.ads  20221118113618 4fea7ff2 microbit.iosfortasking%s
+D mybrain.ads		20221118114118 e28e53a9 mybrain%s
+D nrf.ads		20221118113616 74cf72f5 nrf%s
+D nrf-device.ads	20221118113616 9c9916c4 nrf.device%s
+D nrf-gpio.ads		20221118113616 ab6d4598 nrf.gpio%s
+D nrf-rtc.ads		20221118113616 36d88130 nrf.rtc%s
+D nrf-spi_master.ads	20221118113616 a8ff49a3 nrf.spi_master%s
+D nrf-timers.ads	20221118113616 15fa58e3 nrf.timers%s
+D nrf-twi.ads		20221118113616 4881713f nrf.twi%s
+D nrf-uart.ads		20221118113616 9fa4b8b9 nrf.uart%s
+D nrf_svd.ads		20221118113616 87ba21d7 nrf_svd%s
+D nrf_svd-rtc.ads	20221118113616 57c7ffc8 nrf_svd.rtc%s
+D nrf_svd-spi.ads	20221118113616 6e2ffb69 nrf_svd.spi%s
+D nrf_svd-timer.ads	20221118113616 ba50db1c nrf_svd.timer%s
+D nrf_svd-twi.ads	20221118113616 68301534 nrf_svd.twi%s
+D nrf_svd-uart.ads	20221118113616 83bcebc8 nrf_svd.uart%s
+D system.ads		20220915123908 ad54c63c system%s
+D s-arit64.ads		20220915123906 5f88d2b0 system.arith_64%s
+D s-bb.ads		20220915123906 09e072ae system.bb%s
+D s-bbbopa.ads		20220915123908 f68efaf0 system.bb.board_parameters%s
+D s-bbbosu.ads		20220915123908 0f820a2a system.bb.board_support%s
+D s-bbcppr.ads		20220915123908 ac5bcd4d system.bb.cpu_primitives%s
+D s-bbinte.ads		20220915123908 c88d39da system.bb.interrupts%s
+D s-bbmcpa.ads		20220915123908 9339744a system.bb.mcu_parameters%s
+D s-bbpara.ads		20220915123908 63167d1e system.bb.parameters%s
+D s-bbthre.ads		20220915123908 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20220915123908 cd23d79e system.bb.threads.queues%s
+D s-bbtime.ads		20220915123908 ad086247 system.bb.time%s
+D s-finmas.ads		20220915123906 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20220915123906 4ff27390 system.finalization_root%s
+D s-imagef.ads		20220915123906 019cdf69 system.image_f%s
+D s-imagei.ads		20220915123906 0d3f86a7 system.image_i%s
+D s-imfi64.ads		20220915123906 dbac59b3 system.img_fixed_64%s
+D s-imgint.ads		20220915123906 bdb6f5ec system.img_int%s
+D s-interr.ads		20220915123908 d74bd991 system.interrupts%s
+D s-multip.ads		20220915123908 f33e0e35 system.multiprocessors%s
+D s-mufalo.ads		20220915123908 3dca0374 system.multiprocessors.fair_locks%s
+D s-musplo.ads		20220915123908 69fa25c4 system.multiprocessors.spin_locks%s
+D s-osinte.ads		20220915123908 229b14dd system.os_interface%s
+D s-parame.ads		20220915123908 8e90778f system.parameters%s
+D s-pooglo.ads		20220915123906 ede33ef8 system.pool_global%s
+D s-putima.ads		20220915123906 4e095881 system.put_images%s
+D s-reldel.ads		20220915123908 d2ec2544 system.relative_delays%s
+D s-secsta.ads		20220915123906 56a2861c system.secondary_stack%s
+D s-stalib.ads		20220915123908 472fbca8 system.standard_library%s
+D s-stoele.ads		20220915123906 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20220915123906 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20220915123908 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20220915123906 7bdda3fa system.stream_attributes%s
+D s-tasinf.ads		20220915123908 801abd01 system.task_info%s
+D s-taspri.ads		20220915123908 37f162b4 system.task_primitives%s
+D s-taskin.ads		20220915123908 989d56fd system.tasking%s
+D s-taprob.ads		20220915123908 c8fc0753 system.tasking.protected_objects%s
+D s-tasres.ads		20220915123908 0c8ef6fb system.tasking.restricted%s
+D s-tarest.ads		20220915123908 c88b6d9a system.tasking.restricted.stages%s
+D s-traent.ads		20220915123908 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20220915123906 2b077493 system.unsigned_types%s
+D tasksense.ads		20221118113618 0d59586f tasksense%s
+D tasksense.adb		20221118123450 ea25c6a5 tasksense%b
+D ultrasonic.ads	20221118113618 8d4531d4 ultrasonic%s
+D unchconv.ads		20220915123906 ca2f9e18 unchecked_conversion%s
 G a e
 G c b b b [b tasksense 6 1 none]
 G c Z s b [senseTK tasksense 5 9 none]
 G c Z s s [senseTKVIP tasksense 5 4 none]
 G r c none [b tasksense 6 1 none] [setup ultrasonic 11 14 none]
 G r c none [b tasksense 6 1 none] [read ultrasonic 7 13 none]
-G r p none [b tasksense 6 1 none] [setmeasurementsensor1 mybrain__brain 8 17 none]
+G r p none [b tasksense 6 1 none] [setmeasurementsensor1 mybrain__brain 10 17 none]
+G r p none [b tasksense 6 1 none] [setmeasurementsensor2 mybrain__brain 11 17 none]
+G r p none [b tasksense 6 1 none] [setmeasurementsensor3 mybrain__brain 12 17 none]
+G r p none [b tasksense 6 1 none] [setmeasurementsensor4 mybrain__brain 13 17 none]
 G r c none [senseTK tasksense 5 9 none] [setup ultrasonic 11 14 none]
 G r c none [senseTK tasksense 5 9 none] [read ultrasonic 7 13 none]
-G r p none [senseTK tasksense 5 9 none] [setmeasurementsensor1 mybrain__brain 8 17 none]
+G r p none [senseTK tasksense 5 9 none] [setmeasurementsensor1 mybrain__brain 10 17 none]
+G r p none [senseTK tasksense 5 9 none] [setmeasurementsensor2 mybrain__brain 11 17 none]
+G r p none [senseTK tasksense 5 9 none] [setmeasurementsensor3 mybrain__brain 12 17 none]
+G r p none [senseTK tasksense 5 9 none] [setmeasurementsensor4 mybrain__brain 13 17 none]
 X 1 ada.ads
-16K9*Ada 20e8 84|1r6 1r25 3r6 3r23 4r6 4r33
+16K9*Ada 20e8 85|1r6 1r25 3r6 3r23 4r6 4r33
 X 8 a-reatim.ads
-40K13*Real_Time 181e18 84|1w10 1r29
-50M9*Time<54|46M9> 84|9r17
-60I9*Time_Span<54|81I9> 84|11r26
-67V13*Clock{50M9}<54|134p13> 84|24s21 52s30
-71V14*"+"{50M9} 84|55s30
-75V14*"-"{60I9} 84|52s36
-118V13*To_Duration{duration} 84|53s19
-127V13*Milliseconds{60I9} 84|55s32
+40K13*Real_Time 181e18 85|1w10 1r29
+50M9*Time<54|46M9> 85|9r17
+60I9*Time_Span<54|81I9> 85|14r26
+67V13*Clock{50M9}<54|134p13> 85|28s24 56s33
+71V14*"+"{50M9} 85|59s30
+75V14*"-"{60I9} 85|56s39
+118V13*To_Duration{duration} 85|57s22
+127V13*Milliseconds{60I9} 85|59s32
 X 11 a-string.ads
-16K13*Strings 35e16 84|4r10 4r37
+16K13*Strings 35e16 85|4r10 4r37
 X 14 a-strunb.ads
-55K21*Unbounded 786e26 84|4w18 4r45
+55K21*Unbounded 786e26 85|4w18 4r45
 X 18 a-textio.ads
-36K13*Text_IO 52e16 84|3w10 3r27
-46U14*Put_Line 84|29s10 53s10
+36K13*Text_IO 52e16 85|3w10 3r27
+46U14*Put_Line 85|33s13 40s13 46s13 52s13 57s13
 X 21 hal-gpio.ads
 47h9*GPIO_Point
 X 22 hal-i2c.ads
@@ -175,9 +184,12 @@ X 24 hal-uart.ads
 X 25 interfac.ads
 55I9*Integer_64<long_long_integer>
 X 28 mybrain.ads
-2K9*MyBrain 16e12 83|1w6 1r19
-4w14*Brain 84|31r10
-8U17 SetMeasurementSensor1 84|31s16
+2K9*MyBrain 22e12 84|1w6 1r19
+4w14*Brain 85|35r13 41r13 47r13 53r13
+10U17 SetMeasurementSensor1 85|35s19
+11U17 SetMeasurementSensor2 85|41s19
+12U17 SetMeasurementSensor3 85|47s19
+13U17 SetMeasurementSensor4 85|53s19
 X 44 s-arit64.ads
 44I12*Int64{25|55I9}
 54V13*Multiply_With_Ovflo_Check64{44I12} 55i<c,__gnat_mulv64>22
@@ -186,22 +198,25 @@ X 54 s-bbtime.ads
 81I9*Time_Span<long_long_integer>
 X 61 s-interr.ads
 97U14*Install_Restricted_Handlers_Sequential 98i<c,__gnat_attach_all_handlers>22
-X 69 s-secsta.ads
+X 70 s-secsta.ads
 46P9*SS_Stack_Ptr(43R9)
-X 77 s-taskin.ads
-398V13*Get_Sec_Stack{69|46P9} 399i<c,__gnat_get_secondary_stack>22
-X 80 s-tarest.ads
+X 78 s-taskin.ads
+398V13*Get_Sec_Stack{70|46P9} 399i<c,__gnat_get_secondary_stack>22
+X 81 s-tarest.ads
 232U14*Activate_All_Tasks_Sequential 233i<c,__gnat_activate_all_tasks>22
-X 83 tasksense.ads
-3K9*TaskSense 7l5 7e14 84|6b14 59l5 59t14
-5t9*Sense 84|8b15 57l8 57t13
-X 84 tasksense.adb
-9m7 myClock{8|50M9} 24m10 52r38 55r22
-10i7 Distance{85|5I9} 28m10 29r29 31r39
-11i7 computation_time{8|60I9} 52m10 53r32
-X 85 ultrasonic.ads
-3K9*Ultrasonic 84|2w6 2r22 26r10 85|16e15
-5I9*Distance_cm<short_integer> 84|10r18
-7V13*Read{5I9} 84|28s22
-11U14*Setup 84|26s21
+X 84 tasksense.ads
+3K9*TaskSense 7l5 7e14 85|6b14 63l5 63t14
+5t9*Sense 85|8b15 61l8 61t13
+X 85 tasksense.adb
+9m7 myClock{8|50M9} 28m13 56r41 59r22
+10i7 DistanceFront{86|5I9} 32m13 33r32 35r42
+11i7 DistanceRight{86|5I9} 45m13 46r31 47r41
+12i7 DistanceLeft{86|5I9} 39m13 40r31 41r42
+13i7 DistanceBack{86|5I9} 51m13 52r31 53r41
+14i7 computation_time{8|60I9} 56m13 57r35
+X 86 ultrasonic.ads
+3K9*Ultrasonic 85|2w6 2r22 30r13 38r13 44r12 50r13 86|16e15
+5I9*Distance_cm<short_integer> 85|10r22 11r22 12r21 13r21
+7V13*Read{5I9} 85|32s30 39s29 45s30 51s29
+11U14*Setup 85|30s24 38s24 44s23 50s24
 
