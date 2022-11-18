@@ -8,8 +8,8 @@ package MyBrain is
       function GetMeasurementSensor4 return Distance_cm; -- concurrent read operations are now possible
       
       procedure SetMeasurementSensor1 (V : Distance_cm); -- but concurrent read/write are not!
-      procedure SetMeasurementSensor 2(V : Distance_cm); -- but concurrent read/write are not!
-      procedure SetMeasurementSensor3(V : Distance_cm); -- but concurrent read/write are not!
+      procedure SetMeasurementSensor2 (V : Distance_cm); -- but concurrent read/write are not!
+      procedure SetMeasurementSensor3 (V : Distance_cm); -- but concurrent read/write are not!
       procedure SetMeasurementSensor4 (V : Distance_cm); -- but concurrent read/write are not!
 
    private

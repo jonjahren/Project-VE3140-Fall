@@ -43,7 +43,7 @@ package body TaskSense is
             Brain.SetMeasurementSensor3(Distance);
          
             -- 0,2 is our back sensor
-            Ultrasonic.Setup(0,2)
+            Ultrasonic.Setup(0,2);
             Distance := Read;
             Put_Line("Read" & Distance'Image);
             Brain.SetMeasurementSensor4(Distance);
