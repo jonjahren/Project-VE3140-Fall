@@ -86,7 +86,7 @@ package body TaskAct is
         end case;
       
         ControlMotor(Instruction, MotorDriver.GetMotorPins);
-        Put_Line ("Direction is: " & Directions'Image (Direction));
+        --Put_Line ("Direction is: " & Directions'Image (Direction));
             
       end Drive;
    

@@ -7,10 +7,14 @@ package body TaskSense is
 
     task body sense is
       myClock : Time;
-      Distance : Distance_cm := 0;
+      DistanceFront: Distance_cm := 0;
+      DistanceRight: Distance_cm := 0;
+      DistanceLeft: Distance_cm := 0;
+      DistanceBack: Distance_cm := 0;
       computation_time : Time_Span; 
       
    begin
+      --Ultrasonic.Setup(0,3); 
       loop
          
           --important to get current time such that the period is exactly 200ms.
@@ -24,29 +28,29 @@ package body TaskSense is
             myClock := Clock; 
                            
             Ultrasonic.Setup(0,3); -- This is moved in the main loop to easier facilitate additional sensor readouts and the 0,3 values are our front sensor
-
-            Distance := Read;
-            Put_Line ("Read" & Distance'Image);
+             delay(0.1);
+            DistanceFront := Read;
+            Put_Line ("Read" & DistanceFront'Image);
          
-            Brain.SetMeasurementSensor1 (Distance); -- value from front sensor sent into the measurement function
+            Brain.SetMeasurementSensor1 (DistanceFront); -- value from front sensor sent into the measurement function
          
             --1,4 is left ultrasonic sensor
             Ultrasonic.Setup(1,4);
-            Distance := Read;
-            Put_Line("Read" & Distance'IMage);
-            Brain.SetMeasurementSensor2 (Distance);
+            DistanceLeft := Read;
+            Put_Line("Read" & DistanceLeft'Image);
+            Brain.SetMeasurementSensor2 (DistanceLeft);
          
             --1,5 is right ultrasonic sensor
-            Ultrasonic.Setup(1,5);
-            Distance := Read;
-            Put_Line("Read" & Distance'Image);
-            Brain.SetMeasurementSensor3(Distance);
+           Ultrasonic.Setup(1,5);
+            DistanceRight := Read;
+            Put_Line("Read" & DistanceRight'Image);
+            Brain.SetMeasurementSensor3(DistanceRight);
          
             -- 0,2 is our back sensor
             Ultrasonic.Setup(0,2);
-            Distance := Read;
-            Put_Line("Read" & Distance'Image);
-            Brain.SetMeasurementSensor4(Distance);
+            DistanceBack := Read;
+            Put_Line("Read" & DistanceBack'Image);
+            Brain.SetMeasurementSensor4(DistanceBack);
          
          
             computation_time := Clock - myClock; -- Calculating computation time
