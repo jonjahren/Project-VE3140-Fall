@@ -25,6 +25,30 @@ package body MyBrain is
       begin
          return MeasurementSensor2;
       end GetMeasurementSensor2;
+      
+       --  procedures can modify the data
+      procedure SetMeasurementSensor3 (V : Distance_cm) is
+      begin
+         MeasurementSensor2 := V;
+      end SetMeasurementSensor3;
+
+      --  functions cannot modify the data
+      function GetMeasurementSensor3 return Distance_cm is
+      begin
+         return MeasurementSensor3;
+      end GetMeasurementSensor3;
+      
+       --  procedures can modify the data
+      procedure SetMeasurementSensor4 (V : Distance_cm) is
+      begin
+         MeasurementSensor2 := V;
+      end SetMeasurementSensor4;
+
+      --  functions cannot modify the data
+      function GetMeasurementSensor4 return Distance_cm is
+      begin
+         return MeasurementSensor4;
+      end GetMeasurementSensor4;
    end Brain;
 
 end MyBrain;
