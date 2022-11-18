@@ -28,7 +28,7 @@ package body TaskSense is
             myClock := Clock; 
                            
             Ultrasonic.Setup(0,3); -- This is moved in the main loop to easier facilitate additional sensor readouts and the 0,3 values are our front sensor
-             delay(0.1);
+             --delay(0.1);
             DistanceFront := Read;
             Put_Line ("Read" & DistanceFront'Image);
          
