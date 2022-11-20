@@ -30,26 +30,26 @@ package body TaskSense is
                            
             Ultrasonic.Setup(0,3); -- This is moved in the main loop to easier facilitate additional sensor readouts and the 0,3 values are our front sensor
             DistanceFront := Read;
-            Put_Line ("Read" & DistanceFront'Image);
+            Put_Line ("Front" & DistanceFront'Image);
          
             Brain.SetMeasurementSensor1 (DistanceFront); -- value from front sensor sent into the measurement function
          
             --1,4 is left ultrasonic sensor
             Ultrasonic.Setup(1,4);
             DistanceLeft := Read;
-            Put_Line("Read" & DistanceLeft'Image);
+            Put_Line("Left" & DistanceLeft'Image);
             Brain.SetMeasurementSensor2 (DistanceLeft);
          
             --1,5 is right ultrasonic sensor
            Ultrasonic.Setup(1,5);
             DistanceRight := Read;
-            Put_Line("Read" & DistanceRight'Image);
+            Put_Line("Right" & DistanceRight'Image);
             Brain.SetMeasurementSensor3(DistanceRight);
          
             -- 0,2 is our back sensor
             Ultrasonic.Setup(0,2);
             DistanceBack := Read;
-            Put_Line("Read" & DistanceBack'Image);
+            Put_Line("Rear" & DistanceBack'Image);
             Brain.SetMeasurementSensor4(DistanceBack);
          
          

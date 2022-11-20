@@ -13,8 +13,14 @@ package body TaskThink is
          myClock := Clock;
         
          --make a decision (could be wrapped nicely in a procedure)
+         -- GetMeasurementSensor2 is left sensor
+         -- GetMeasurementSensor3 is RIght Sensor
+         -- GetMeasurementSensor4 is supposed to be rear sensor but it is not wired 
+         
          if Brain.GetMeasurementSensor1 > Distance_cm(15) then            
-            MotorDriver.SetDirection (Forward); --our decision what to do based on the sensor values        
+            MotorDriver.SetDirection (Forward); --our decision what to do based on the sensor values 
+         elsif Brain.GetMeasurementSensor1 < Distance_cm(15) and Brain.GetMeasurementSensor3 > Distance_cm(15) then
+           MotorDriver.SetDirection(Left);
          else
             MotorDriver.SetDirection (Stop); 
          end if;
