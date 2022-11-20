@@ -1,7 +1,8 @@
 With Ada.Real_Time; use Ada.Real_Time;
 With Ultrasonic; use Ultrasonic;
 With Ada.Text_IO; use Ada.Text_IO;
-with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
+-- Commenting out this because we were not using it
+--with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 
 package body TaskSense is
 
