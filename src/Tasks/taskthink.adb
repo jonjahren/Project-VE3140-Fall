@@ -13,16 +13,27 @@ package body TaskThink is
          myClock := Clock;
         
          --make a decision (could be wrapped nicely in a procedure)
-         -- GetMeasurementSensor2 is left sensor
-         -- GetMeasurementSensor3 is RIght Sensor
-         -- GetMeasurementSensor4 is supposed to be rear sensor but it is not wired 
-         
-         if Brain.GetMeasurementSensor1 > Distance_cm(15) then            
+          if Brain.GetMeasurementSensor1 > Distance_cm(15) then            
             MotorDriver.SetDirection (Forward); --our decision what to do based on the sensor values 
-         elsif Brain.GetMeasurementSensor1 < Distance_cm(15) and Brain.GetMeasurementSensor3 > Distance_cm(15) then -- When distance on front is less than 15cm AND right is over 15cm
+            --Put_Line("Forward value" & Brain.GetMeasurementSensor1'Image);
+            --Put_Line("Right  value" & Brain.GetMeasurementSensor3'Image);
+            --Put_Line("Left value" & Brain.GetMeasurementSensor2'Image);
+
+
+         elsif Brain.GetMeasurementSensor2 > Distance_cm(15) then -- When distance on front is less than 15cm AND right is over 15cm
+            --Put_Line("Forward value" & Brain.GetMeasurementSensor1'Image);
+            --Put_Line("Right  value" & Brain.GetMeasurementSensor3'Image);
+             --Put_Line("Left value" & Brain.GetMeasurementSensor2'Image); 
+             delay(0.1);
             MotorDriver.SetDirection (Left);
-         elsif Brain.GetMeasurementSensor3 > Distance_cm(15) and Brain.GetMeasurementSensor1 < Distance_cm(15) then -- When distance front is less than 15cm AND left is over 15cm
+            
+         elsif Brain.GetMeasurementSensor3> Distance_cm(15)  then -- When distance front is less than 15cm AND left is over 15cm
+            --Put_Line("Forward value" & Brain.GetMeasurementSensor1'Image);
+            --Put_Line("Right  value" & Brain.GetMeasurementSensor3'Image);
+            --Put_Line("Left value" & Brain.GetMeasurementSensor2'Image);            
+           delay(0.1);
             MotorDriver.SetDirection (Right);
+         
          else
             MotorDriver.SetDirection (Stop);  -- If all else fails, stop car
          end if;

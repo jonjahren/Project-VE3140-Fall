@@ -29,7 +29,7 @@ package body MyBrain is
        --  procedures can modify the data
       procedure SetMeasurementSensor3 (V : Distance_cm) is
       begin
-         MeasurementSensor2 := V;
+         MeasurementSensor3 := V;
       end SetMeasurementSensor3;
 
       --  functions cannot modify the data
@@ -41,7 +41,7 @@ package body MyBrain is
        --  procedures can modify the data
       procedure SetMeasurementSensor4 (V : Distance_cm) is
       begin
-         MeasurementSensor2 := V;
+         MeasurementSensor4 := V;
       end SetMeasurementSensor4;
 
       --  functions cannot modify the data

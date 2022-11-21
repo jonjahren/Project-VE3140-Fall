@@ -39,22 +39,24 @@ package body TaskSense is
             DistanceLeft := Read;
             Put_Line("Left" & DistanceLeft'Image);
             Brain.SetMeasurementSensor2 (DistanceLeft);
+            Put_Line(Brain.GetMeasurementSensor2'Image);
          
             --1,5 is right ultrasonic sensor
            Ultrasonic.Setup(1,5);
             DistanceRight := Read;
             Put_Line("Right" & DistanceRight'Image);
             Brain.SetMeasurementSensor3(DistanceRight);
+            Put_Line(Brain.GetMeasurementSensor3'Image);
          
             -- 0,2 is our back sensor
             Ultrasonic.Setup(0,2);
             DistanceBack := Read;
-            Put_Line("Rear" & DistanceBack'Image);
-            Brain.SetMeasurementSensor4(DistanceBack);
+            --Put_Line("Rear" & DistanceBack'Image);
+            --Brain.SetMeasurementSensor4(DistanceBack);
          
          
             computation_time := Clock - myClock; -- Calculating computation time
-            Put_Line(To_Duration (computation_time)'Image); 
+           -- Put_Line(To_Duration (computation_time)'Image); 
             
          delay until myClock + Milliseconds(100); --random period <- We tried changing this, but this only resulted in random lockups in the code
             end loop;
