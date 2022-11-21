@@ -8,6 +8,7 @@ package body TaskThink is
   task body think is
       myClock : Time;
       computation_time : Time_Span;
+      giveUp : Integer := 0;
    begin
       loop
          myClock := Clock;
@@ -19,21 +20,22 @@ package body TaskThink is
             --Put_Line("Right  value" & Brain.GetMeasurementSensor3'Image);
             --Put_Line("Left value" & Brain.GetMeasurementSensor2'Image);
 
-
-         elsif Brain.GetMeasurementSensor2 > Distance_cm(15) then -- When distance on front is less than 15cm AND right is over 15cm
+         elsif Brain.GetMeasurementSensor2 > Distance_cm(15) and giveUp < 10 then -- When distance on front is less than 15cm AND right is over 15cm
             --Put_Line("Forward value" & Brain.GetMeasurementSensor1'Image);
             --Put_Line("Right  value" & Brain.GetMeasurementSensor3'Image);
              --Put_Line("Left value" & Brain.GetMeasurementSensor2'Image); 
              delay(0.1);
             MotorDriver.SetDirection (Left);
+            --giveUp ::= giveUp + 1;
             
-         elsif Brain.GetMeasurementSensor3> Distance_cm(15)  then -- When distance front is less than 15cm AND left is over 15cm
+         elsif Brain.GetMeasurementSensor3> Distance_cm(15) and giveUp < 10  then -- When distance front is less than 15cm AND left is over 15cm
             --Put_Line("Forward value" & Brain.GetMeasurementSensor1'Image);
             --Put_Line("Right  value" & Brain.GetMeasurementSensor3'Image);
             --Put_Line("Left value" & Brain.GetMeasurementSensor2'Image);            
            delay(0.1);
             MotorDriver.SetDirection (Right);
-         
+            --giveUp ::= giveUp + 1;
+            
          else
             MotorDriver.SetDirection (Stop);  -- If all else fails, stop car
          end if;
