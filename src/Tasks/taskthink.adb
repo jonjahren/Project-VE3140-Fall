@@ -19,10 +19,12 @@ package body TaskThink is
          
          if Brain.GetMeasurementSensor1 > Distance_cm(15) then            
             MotorDriver.SetDirection (Forward); --our decision what to do based on the sensor values 
-         elsif Brain.GetMeasurementSensor1 < Distance_cm(15) and Brain.GetMeasurementSensor3 > Distance_cm(15) then
-           MotorDriver.SetDirection(Left);
+         elsif Brain.GetMeasurementSensor1 < Distance_cm(15) and Brain.GetMeasurementSensor3 > Distance_cm(15) then -- When distance on front is less than 15cm AND right is over 15cm
+            MotorDriver.SetDirection (Left);
+         elsif Brain.GetMeasurementSensor3 > Distance_cm(15) and Brain.GetMeasurementSensor1 < Distance_cm(15) then -- When distance front is less than 15cm AND left is over 15cm
+            MotorDriver.SetDirection (Right);
          else
-            MotorDriver.SetDirection (Stop); 
+            MotorDriver.SetDirection (Stop);  -- If all else fails, stop car
          end if;
          
          computation_time := Clock - myClock;
