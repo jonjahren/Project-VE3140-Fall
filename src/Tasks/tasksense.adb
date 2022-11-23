@@ -40,9 +40,9 @@ package body TaskSense is
             DistanceRight := Read;
             Brain.SetMeasurementSensor3(DistanceRight);
          
-            -- 0,2 is our back sensor
-            Ultrasonic.Setup(0,2);
-            DistanceBack := Read;
+            -- 0,2 rear sensor not in use
+            --Ultrasonic.Setup(0,2);
+            --DistanceBack := Read;
          
          
             --computation_time := Clock - myClock; -- Calculating computation time
