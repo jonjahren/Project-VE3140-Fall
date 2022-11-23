@@ -1,8 +1,6 @@
 With Ada.Real_Time; use Ada.Real_Time;
 With Ultrasonic; use Ultrasonic;
 With Ada.Text_IO; use Ada.Text_IO;
--- Commenting out this because we were not using it
---with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 
 package body TaskSense is
 
@@ -15,7 +13,6 @@ package body TaskSense is
       computation_time : Time_Span; 
       
    begin
-      --Ultrasonic.Setup(0,3); 
       loop
          
           --important to get current time such that the period is exactly 200ms.
@@ -27,35 +24,28 @@ package body TaskSense is
           
          
             myClock := Clock; 
-                           
+             
+             -- Front Sensor
             Ultrasonic.Setup(0,3); -- This is moved in the main loop to easier facilitate additional sensor readouts and the 0,3 values are our front sensor
-            DistanceFront := Read;
-            Put_Line ("Front" & DistanceFront'Image);
-         
+            DistanceFront := Read;         
             Brain.SetMeasurementSensor1 (DistanceFront); -- value from front sensor sent into the measurement function
          
             --1,4 is left ultrasonic sensor
             Ultrasonic.Setup(1,4);
             DistanceLeft := Read;
-            Put_Line("Left" & DistanceLeft'Image);
             Brain.SetMeasurementSensor2 (DistanceLeft);
-            Put_Line(Brain.GetMeasurementSensor2'Image);
          
             --1,5 is right ultrasonic sensor
            Ultrasonic.Setup(1,5);
             DistanceRight := Read;
-            Put_Line("Right" & DistanceRight'Image);
             Brain.SetMeasurementSensor3(DistanceRight);
-            Put_Line(Brain.GetMeasurementSensor3'Image);
          
             -- 0,2 is our back sensor
             Ultrasonic.Setup(0,2);
             DistanceBack := Read;
-            --Put_Line("Rear" & DistanceBack'Image);
-            --Brain.SetMeasurementSensor4(DistanceBack);
          
          
-            computation_time := Clock - myClock; -- Calculating computation time
+            --computation_time := Clock - myClock; -- Calculating computation time
            -- Put_Line(To_Duration (computation_time)'Image); 
             
          delay until myClock + Milliseconds(100); --random period <- We tried changing this, but this only resulted in random lockups in the code
