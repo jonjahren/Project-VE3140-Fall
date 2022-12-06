@@ -1,16 +1,22 @@
 with Ultrasonic; use Ultrasonic;
 package MyBrain is
-
+   
+   -- Protected objects are used to avoid deadlocks in the code
+   
    protected Brain is
-      function GetMeasurementSensor1 return Distance_cm; -- concurrent read operations are now possible
-      function GetMeasurementSensor2 return Distance_cm; -- concurrent read operations are now possible
-      function GetMeasurementSensor3 return Distance_cm; -- concurrent read operations are now possible 
-      function GetMeasurementSensor4 return Distance_cm; -- concurrent read operations are now possible
       
-      procedure SetMeasurementSensor1 (V : Distance_cm); -- but concurrent read/write are not!
-      procedure SetMeasurementSensor2 (V : Distance_cm); -- but concurrent read/write are not!
-      procedure SetMeasurementSensor3 (V : Distance_cm); -- but concurrent read/write are not!
-      procedure SetMeasurementSensor4 (V : Distance_cm); -- but concurrent read/write are not!
+      -- concurrent read operations are now possible
+      function GetMeasurementSensor1 return Distance_cm; 
+      function GetMeasurementSensor2 return Distance_cm;
+      function GetMeasurementSensor3 return Distance_cm; 
+      function GetMeasurementSensor4 return Distance_cm;
+      
+      -- Concurrent write not currently possible
+      
+      procedure SetMeasurementSensor1 (V : Distance_cm);
+      procedure SetMeasurementSensor2 (V : Distance_cm);
+      procedure SetMeasurementSensor3 (V : Distance_cm);
+      procedure SetMeasurementSensor4 (V : Distance_cm);
 
    private
          MeasurementSensor1 : Distance_cm := 0;

@@ -1,13 +1,14 @@
 package body MyMotorDriver is
+   --  functions cannot modify the data
+   --  procedures can modify the data
+
 
    protected body MotorDriver is
-      --  procedures can modify the data
       procedure SetDirection (V : Directions) is
       begin
          DriveDirection := V;
       end SetDirection;
 
-      --  functions cannot modify the data
       function GetDirection return Directions is
       begin
          return DriveDirection;
@@ -18,7 +19,6 @@ package body MyMotorDriver is
          Pins := V;
       end SetMotorPins;
 
-      --  functions cannot modify the data
       function GetMotorPins return MotorControllerPins is
       begin
          return Pins;
