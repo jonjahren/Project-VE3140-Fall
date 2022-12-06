@@ -13,16 +13,16 @@ package body TaskThink is
          myClock := Clock;
         
          --make a decision (could be wrapped nicely in a procedure)
-         if Brain.GetMeasurementSensor1 > Distance_cm(15) then
+         if Brain.GetMeasurementSensor1 > Distance_cm(30) then
             emergencyStop := 0; -- Hack to reset stop counter
             
             MotorDriver.SetDirection (Forward); --our decision what to do based on the sensor values
 
-         elsif Brain.GetMeasurementSensor2 > Distance_cm(15)  then 
+         elsif Brain.GetMeasurementSensor2 > Distance_cm(30)  then 
             emergencyStop := 0; -- Hack to reset stop counter
             MotorDriver.SetDirection (Left);            
          
-         elsif Brain.GetMeasurementSensor3 > Distance_cm(15)  then
+         elsif Brain.GetMeasurementSensor3 > Distance_cm(30)  then
             emergencyStop := 0; -- Hack to reset stop counter
             MotorDriver.SetDirection (Right);
             -- This is for checking if there are obstacles on each side it will rotate until it finds an opening
